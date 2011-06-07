@@ -1,11 +1,8 @@
 C:\Users\Maharba\Projects\LightBot\LightBotTablero\bin\Debug\LightBotTablero.exe
 C:\Users\Maharba\Projects\LightBot\LightBotTablero\bin\Debug\LightBotTablero.pdb
 C:\Users\Maharba\Projects\LightBot\LightBotTablero\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Maharba\Projects\LightBot\LightBotTablero\obj\x86\Debug\Tablero.baml
 C:\Users\Maharba\Projects\LightBot\LightBotTablero\obj\x86\Debug\MainWindow.g.cs
-C:\Users\Maharba\Projects\LightBot\LightBotTablero\obj\x86\Debug\Tablero.g.cs
 C:\Users\Maharba\Projects\LightBot\LightBotTablero\obj\x86\Debug\App.g.cs
-C:\Users\Maharba\Projects\LightBot\LightBotTablero\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Maharba\Projects\LightBot\LightBotTablero\obj\x86\Debug\LightBotTablero_MarkupCompile.cache
 C:\Users\Maharba\Projects\LightBot\LightBotTablero\obj\x86\Debug\LightBotTablero_MarkupCompile.lref
 C:\Users\Maharba\Projects\LightBot\LightBotTablero\obj\x86\Debug\MainWindow.baml

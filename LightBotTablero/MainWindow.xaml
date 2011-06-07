@@ -9,7 +9,7 @@
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
-        <t:Tablero x:Name="tab" Casilla="A1" Grid.Row="3" />
+        
         <TextBox Grid.Row="1" />
         <Button Grid.Row="0" Content="Blabla" Click="Button_Click" />
     </Grid>
