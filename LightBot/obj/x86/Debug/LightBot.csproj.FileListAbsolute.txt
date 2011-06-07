@@ -1,0 +1,13 @@
+C:\Users\Maharba\Projects\LightBot\LightBot\bin\Debug\LightBot.exe
+C:\Users\Maharba\Projects\LightBot\LightBot\bin\Debug\LightBot.pdb
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\MainWindow.baml
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\App.g.cs
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\LightBot_MarkupCompile.cache
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\LightBot.g.resources
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\LightBot.Properties.Resources.resources
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\LightBot.exe
+C:\Users\Maharba\Projects\LightBot\LightBot\obj\x86\Debug\LightBot.pdb

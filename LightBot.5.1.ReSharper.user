@@ -7,8 +7,20 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="8E5E8025-D185-4AAB-8B71-B57D48991D4C/f:MainWindow.xaml.cs" caret="0" fromTop="0" />
+      <File id="89438822-3A0E-4B83-864B-6331BBFDF3DC/f:MainWindow.xaml" caret="252" fromTop="4" />
+      <File id="8E5E8025-D185-4AAB-8B71-B57D48991D4C/f:MainWindow.xaml" caret="321" fromTop="5" />
+      <File id="8E5E8025-D185-4AAB-8B71-B57D48991D4C/f:Tablero.xaml" caret="550" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="89438822-3A0E-4B83-864B-6331BBFDF3DC/f:MainWindow.xaml" caret="252" fromTop="0" />
+      <File id="8E5E8025-D185-4AAB-8B71-B57D48991D4C/f:MainWindow.xaml" caret="308" fromTop="4" />
+      <File id="8E5E8025-D185-4AAB-8B71-B57D48991D4C/f:Tablero.xaml" caret="467" fromTop="7" />
+      <File id="8E5E8025-D185-4AAB-8B71-B57D48991D4C/f:Tablero.xaml" caret="914" fromTop="11" />
+      <File id="8E5E8025-D185-4AAB-8B71-B57D48991D4C/f:MainWindow.xaml" caret="308" fromTop="4" />
+      <File id="8E5E8025-D185-4AAB-8B71-B57D48991D4C/f:MainWindow.xaml" caret="321" fromTop="5" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
