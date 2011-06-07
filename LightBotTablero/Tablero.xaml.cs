@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -38,21 +39,25 @@ namespace LightBotTablero
                         //grdTablero.Children.Add(elRobot);
                         Grid.SetColumn(elRobot, 0);
                         Grid.SetRow(elRobot, 0);
+                        Animacion(150);
                         break;
                     case Casillas.A2:
                         //grdTablero.Children.Add(elRobot);
                         Grid.SetColumn(elRobot, 0);
                         Grid.SetRow(elRobot, 1);
+                        Animacion(250);
                         break;
                     case Casillas.A3:
                         //grdTablero.Children.Add(elRobot);
                         Grid.SetColumn(elRobot, 0);
                         Grid.SetRow(elRobot, 2);
+                        Animacion(50);
                         break;
                     case Casillas.A4:
                         //grdTablero.Children.Add(elRobot);
                         Grid.SetColumn(elRobot, 0);
                         Grid.SetRow(elRobot, 3);
+                        Animacion(350);
                         break;
                     case Casillas.A5:
                         Grid.SetColumn(elRobot, 0);
@@ -142,6 +147,28 @@ namespace LightBotTablero
             }
         }
 
-        
+        public static readonly RoutedEvent MovimientoEvent = EventManager.RegisterRoutedEvent("Movimiento",
+                                                                                         RoutingStrategy.Bubble,
+                                                                                         typeof (RoutedEventHandler),
+                                                                                         typeof (Tablero));
+
+        public event RoutedEventHandler Movimiento
+        {
+            add { AddHandler(MovimientoEvent, value); }
+            remove { RemoveHandler(MovimientoEvent, value); }
+        }
+
+        private void RaiseMovimientoEvent()
+        {
+            RoutedEventArgs newEventArgs = new RoutedEventArgs(Tablero.MovimientoEvent);
+            RaiseEvent(newEventArgs);
+        }
+
+        public void Animacion(double? valor)
+        {
+            animacion1.By = valor;
+            RaiseMovimientoEvent();
+        }
+
     }
 }

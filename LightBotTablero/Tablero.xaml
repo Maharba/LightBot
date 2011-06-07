@@ -2,10 +2,9 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:LightBotTablero="clr-namespace:LightBotTablero" mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid Name="grdTablero">
+    <Grid Name="grdTablero" ShowGridLines="True">
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition />
@@ -20,6 +19,24 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <Ellipse Name="elRobot" Stroke="Black" Fill="Orange" />
+        <Grid.Triggers>
+            <EventTrigger RoutedEvent="LightBotTablero:Tablero.Movimiento">
+                <EventTrigger.Actions>
+                    <BeginStoryboard>
+                        <BeginStoryboard.Storyboard>
+                            <Storyboard TargetName="elRobot" TargetProperty="(Button.RenderTransform).(TranslateTransform.Y)">
+                                <DoubleAnimation x:Name="animacion1" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard.Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger.Actions>
+            </EventTrigger>
+        </Grid.Triggers>
+        <Ellipse Name="elRobot" Stroke="Black" Fill="Orange">
+            <Ellipse.RenderTransform>
+                <TranslateTransform />
+            </Ellipse.RenderTransform>
+        </Ellipse>
+
     </Grid>
 </UserControl>

@@ -23,5 +23,10 @@ namespace LightBotTablero
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            tab.Casilla = Casillas.A2;
+        }
     }
 }

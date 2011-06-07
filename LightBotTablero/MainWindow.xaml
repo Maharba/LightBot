@@ -2,8 +2,15 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:t="clr-namespace:LightBotTablero"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="350">
     <Grid>
-        <t:Tablero Casilla="A2" />
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <t:Tablero x:Name="tab" Casilla="A1" Grid.Row="3" />
+        <TextBox Grid.Row="1" />
+        <Button Grid.Row="0" Content="Blabla" Click="Button_Click" />
     </Grid>
 </Window>
